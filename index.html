@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; 
+            transition: 0.3s ease all;          
+        }
+  #btn1,#btn2{
+      padding: 15px 35px;
+      background: #ffb9d6;
+      color: #fff;  
+      border: 1px solid #eee;
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px  #eee;
+      text-shadow: none;
+  }
+  #sayi{
+      color:orange;
+      text-align: center;
+      background-color: aqua;
+  }
+
+    </style>
+</head>
+<body>
+    
+    <!-- <button onclick="changeBackground()">Background Change</button> -->
+    <input type="button" name="btn1" id="btn1" onclick="changeBackground()" value="Background Change">
+    <input type="button" name="btn2" id="btn2" onclick="InOrder()" value="In Order">
+    <input type="label" name="sayi" id="sayi" value="0" size="5">
+    <script src="app.js"></script>
+    
+</body>
+</html>
